@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'FlappyBirdRegular';
+    src: url('@fonts/FlappyBirdRegular');
+}
+@font-face {
+    font-family: 'unlearned';
+    src: url('@fonts/unlearned');
+}
+body {
+    font-family: 'FlappyBirdRegular', sans-serif;
+    font-size: 14px;
+}

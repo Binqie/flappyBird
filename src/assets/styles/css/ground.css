@@ -1,0 +1,5 @@
+.ground {
+    height: 100px;
+    width: 500px;
+    background-image: url('@img/ground');
+}

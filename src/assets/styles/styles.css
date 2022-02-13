@@ -1,0 +1,13 @@
+@import '~normalize.css';
+@import '@styles/css/flappybirdfont';
+@import '@styles/css/window';
+@import '@styles/css/wrapper';
+@import '@styles/css/bird';
+@import '@styles/css/ground';
+@import '@styles/css/pipe';
+@import '@styles/css/modal';
+
+body {
+    width: 100vw;
+    height: 100vh;
+}

@@ -1,0 +1,23 @@
+.pipes {
+    position: absolute;
+    height: 100%;
+}
+
+.pipe {
+    background-image: url('@img/pipe');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 80px;
+    height: 600px;
+}
+
+.pipe.reverse {
+    transform: rotateX(180deg);
+    background-image: url('@img/pipe');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 80px;
+    height: 600px;
+}

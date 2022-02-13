@@ -1,0 +1,56 @@
+.modal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 24px;
+    display: none;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #DED895;
+    border-radius: 4px;
+    border: 2px solid #4D2700;
+    color: #E86101;
+    width: 100px;
+    height: 60%;
+}
+
+.score div {
+    text-align: center;
+}
+
+.score div div {
+    font-family: 'unlearned', sans-serif;
+    color: black;
+    font-size: 40px;
+}
+
+.modal .btn {
+    height: 30%;
+    width: 100%;
+}
+
+.modal button {
+    background-color: #E86101;
+    border-radius: none;
+    width: 100%;
+    outline: 3px solid #4D2700;
+    border: 2px solid white;
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+    text-transform: uppercase;
+    color: white;
+}

@@ -1,0 +1,9 @@
+.bird {
+    background-image: url('@img/bird');
+    background-size: cover;
+    top: 50%;
+    left: 40%;
+    width: 40px;
+    height: 30px;
+    position: absolute;
+}

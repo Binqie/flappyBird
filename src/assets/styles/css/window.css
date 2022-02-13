@@ -1,0 +1,8 @@
+.game__window {
+    width: 500px;
+    height: 700px;
+    background-image: url('@img/background');
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
