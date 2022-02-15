@@ -26,7 +26,11 @@ const game = {
             if (this.isGameOver) return false;
             this.jump();
         });
-
+        document.addEventListener('keydown', e => {
+            if (e.code === 'Enter' && this.isGameOver) {
+                this.restart.click();
+            }
+        }) 
     },
 
     physics() {
@@ -38,7 +42,7 @@ const game = {
             if (this.gameWindow.getBoundingClientRect().bottom <= this.bird.getBoundingClientRect().bottom || this.gameWindow.getBoundingClientRect().top >= this.bird.getBoundingClientRect().top) {
                 this.isGameOver = true;
             }
-        }, 7);
+        }, 6);
         setInterval(() => {
             if (this.checkForGameOver()) return false;
 
@@ -134,4 +138,4 @@ const game = {
 
 }
 
-game.start()
+game.start();
